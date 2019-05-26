@@ -1,10 +1,10 @@
 {
   "name": "yiitk/yiitk-nox-media-manager",
   "description": "YiiTK - NOX Media Manager for Yii Framework version 2",
-  "type": "library",
+  "type": "yii2-extension",
   "keywords": ["yii2", "extension", "framework", "php"],
   "license": "BSD-3-Clause",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "authors": [
     {
       "name": "YiiTK",
@@ -21,7 +21,9 @@
     "ext-json": "*",
     "ext-curl": "*",
 
-    "yiisoft/yii2": "~2.0.15"
+    "yiisoft/yii2": "~2.0.15",
+
+    "yiisoft/yii2-bootstrap4": "~2.0.0"
   },
   "require-dev": {
     "yiisoft/yii2-faker": "~2.0.0",
@@ -47,7 +49,7 @@
     },
     {
       "type": "vcs",
-      "url": "https://github.com/yiitk/yiitk"
+      "url": "https://github.com/yiitk/yiitk-nox-media-manager"
     }
   ]
 }
